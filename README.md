@@ -2,10 +2,10 @@
 
 
 ## Data preparation
+
 1. Download DBpedia abstract file (.ttl) in required language [source](http://downloads.dbpedia.org/2015-04/ext/nlp/abstracts/) and put in in the [full_abstracts](/full_abstracts/) folder.
 2. Download DBpedia shorteabstract file (.ttl) in required language [source](https://databus.dbpedia.org/dbpedia/text/short-abstracts/) and unzip it in the [short_abstracts](/short_abstracts/) folder.
 3. Run the [data_creation notebook](/data_creation.ipynb). Final dataframes should be located in [data](/data/) folder.
-
 
 
 ## Pretrained models
